@@ -1,11 +1,12 @@
- import React from 'react'
- 
- const App = () => {
-   return (
-     <main>
-      <h1 className="text-5xl font-extrabold">React</h1>
-     </main>
-   )
- }
- 
- export default App
+import React from "react";
+import Hero from "./sections/Hero";
+
+const App = () => {
+  return (
+    <>
+      <Hero />
+    </>
+  );
+};
+
+export default App;

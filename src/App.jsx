@@ -3,7 +3,7 @@ import Hero from "./sections/Hero";
 import ShowcaseSection from "./sections/ShowcaseSection";
 import Navbar from "./sections/Navbar";
 import LogoSection from "./sections/LogoSection";
-import FeaureCards from "./sections/FeaureCards";
+import FeatureCards from "./sections/FeatureCards";
 
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
       <Hero />
       <ShowcaseSection />
       <LogoSection />
-      <FeaureCards />
+      <FeatureCards />
     </>
   );
 };

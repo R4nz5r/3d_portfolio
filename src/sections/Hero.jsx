@@ -29,9 +29,9 @@ const Hero = () => {
                 Shapping{" "}
                 <span className="slide">
                   <span className="wrapper">
-                    {words.map((word) => (
+                    {words.map((word, index) => (
                       <span
-                        key={word.text}
+                        key={`${word.text}-${index}`} // ✅ now it's always unique
                         className="flex items-center md:gap-3 gap-1 pb-2"
                       >
                         <img
